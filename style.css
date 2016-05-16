@@ -1,0 +1,70 @@
+
+/*导航栏 游戏*/
+a[nm="game"],
+
+/*好书推荐*/
+
+#v6_pl_rightmod_rank,
+#v6_pl_rightmod_recominfo,
+
+/*热门话题*/
+#v6_pl_rightmod_attfeed,
+#v6_pl_rightmod_noticeboard,
+
+/*二级导航 隐藏*/
+.WB_tab_a .tab_box
+{
+	display: none!important;
+}
+
+/*输入框上方  热门微博*/
+div[node-type="recommendTopic"]{
+	display: none!important;
+}
+
+
+/*左侧导航 减小宽度*/
+.WB_main_l {
+	width: 100px!important
+}
+
+/*好友全，好友设置 icon*/
+.WB_left_nav .lev_line fieldset{
+	padding-left: 74px;
+}
+
+
+
+
+/*主显示区域 扩大*/
+#plc_main .WB_main_c {
+	width: 880px!important;
+	
+}
+.WB_frame #plc_main
+{
+	position: relative!important;
+}
+/* 个人资料*/
+.WB_main_r {
+	width: 140px!important;
+	position: absolute!important;
+	right: -200px;
+	top: 0;
+	margin: 0 !important
+}
+.W_person_info{
+	overflow: auto!important;
+}
+.user_atten li{
+	width: 34px!important
+}
+.user_atten li strong{
+	font-size: 12px;
+	width: 26px!important;
+}
+
+/* 分页上方 提示开通会员*/
+div[node-type="feed_list_shieldKeyword"]{
+	display: none!important;
+}
