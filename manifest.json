@@ -3,7 +3,7 @@
     "name": "lite-wb",
     "short_name": "清爽微博",
     "description": "清爽微博",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": "kunl",
     "content_scripts": [
         {
